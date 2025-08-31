@@ -15,11 +15,11 @@
 .notify {
   display: flex;
   align-items: center;
-  background: rgba(30,30,30,0.9);
-  color: #fff;
+  background: rgba(0,0,0,0); /* volledig transparant */
+  color: #ffffff; /* tekstkleur */
   padding: 12px 18px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border: 2px solid #00aaff; /* randkleur (blauw voorbeeld) */
   min-width: 280px;
   max-width: 350px;
   opacity: 0;
