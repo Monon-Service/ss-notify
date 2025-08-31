@@ -13,3 +13,7 @@ files {
 client_scripts {
     'client.lua'
 }
+
+exports {
+    'Send'
+}
